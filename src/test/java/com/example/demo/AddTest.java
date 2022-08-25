@@ -1,5 +1,7 @@
 package com.example.demo;
 
+
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
@@ -13,5 +15,10 @@ public class AddTest {
 		assertEquals(20,add.add(10,10));
 		
 	}
-
+	@Test
+	void addtest2() {
+		AddInterface add = new DefaultAddition();
+		assertEquals(10,add.add(10,10));
+	
+}
 }
