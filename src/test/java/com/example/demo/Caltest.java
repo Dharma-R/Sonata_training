@@ -23,5 +23,6 @@ public class Caltest {
 		assertThrows(ArithmeticException.class,()->c1.div1(1,0),"it is an error");
 	}
 
+	
 }
 
