@@ -1,10 +1,13 @@
-package com.sonata.one;
+package com.example.demo;
 
 //import static org.junit.Assert.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+
+import com.example.demo.Calculator;
+
 
 public class Caltest {
 	

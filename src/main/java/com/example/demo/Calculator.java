@@ -1,4 +1,4 @@
-package com.sonata.one;
+package com.example.demo;
 
 public class Calculator {
 	
